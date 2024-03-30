@@ -1,0 +1,108 @@
+.live-score {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    padding: 15px;
+    background: lightyellow;
+    backdrop-filter: blur(14px) saturate(180%);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.match-container {
+    text-align: center;
+}
+
+.live-container,
+.match-container {
+    width: 100%;
+}
+
+.teams-container {
+    display: flex;
+    justify-content: center;
+    /* Center items horizontally */
+    width: 100%;
+}
+
+.result {
+    padding-left: 10px;
+    letter-spacing: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.team-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.league-logo {
+    width: 45px;
+}
+
+.league {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.league-name {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.team-logo {
+    width: 80px;
+    margin-top: 30px;
+}
+
+.team-name {
+    padding-top: 5px;
+    text-align: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: black;
+    width: 50%;
+}
+
+.round {
+    font-size: 35px;
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 1px 0px;
+}
+
+.hide-match {
+    visibility: hidden;
+}
+
+button {
+    color: black;
+    background-color: pink;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.selectors {
+    cursor: pointer;
+    font-size: 30px;
+    margin: 10px;
+}
